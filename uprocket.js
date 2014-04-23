@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Uprocket!
 // @namespace  http://use.i.E.your.homepage/
-// @version    0.1
+// @version    1
 // @description  Make the /r/dogecoin uprocket fly!
 // @match      http://www.reddit.com/r/dogecoin/
 // @require    http://thurstshouse.com/warehouse/Hosting/jquery.keyframes.min.js
@@ -54,12 +54,12 @@ $.keyframe.define([{
   '94%': { 'transform': 'translate(0,14px)', 'opacity': '0' },
   '100%': { 'transform': 'translate(0,0)', 'opacity': '1' }
 }]);
-console.log('Animation defined');
 
-$(".arrow.up").playKeyframe({
-	name: 'upMoon',
-	duration: 1500,
-	repeat: 1,
-	timingFunction: 'ease'
-});
-console.log('Finished applying animation');
+$(".arrow.up").click(function(){
+    $(".arrow.upmod").playKeyframe({
+        name: 'upMoon',
+        duration: 1500,
+        repeat: 1,
+        timingFunction: 'ease'
+    });
+})
