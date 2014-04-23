@@ -47,7 +47,7 @@ $.keyframe.define([{
   name: 'upMoon',
   '0%': { 'transform': 'translate(0,0)', 'opacity': '1' },
   '10%': { 'transform': 'translate(4px,0) rotate(5deg)' },
-  '15%': { 'transform': 'translate(-4px,0) otate(-15deg)' },
+  '15%': { 'transform': 'translate(-4px,0) rotate(-15deg)' },
   '20%': { 'transform': 'translate(0,0)' },
   '50%': { 'transform': 'translate(0,10px)', 'opacity': '1' },
   '88%': { 'transform': 'translate(0,-140px)', 'opacity': '0' },
@@ -55,7 +55,7 @@ $.keyframe.define([{
   '100%': { 'transform': 'translate(0,0)', 'opacity': '1' }
 }]);
 
-$(".arrow.upmod").playKeyFrame({
+$(".arrow .upmod").playKeyFrame({
   name: 'upMoon',
   duration: 1500,
   repeat: 1,
