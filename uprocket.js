@@ -56,8 +56,6 @@ $.keyframe.define([{
 }]);
 
 $(".arrow .upmod").playKeyFrame({
-  name: 'upMoon',
-  duration: 1500,
-  repeat: 1,
-  timingFunction: 'ease'
+  'upMoon 1500 1 ease',
+  complete
 });
