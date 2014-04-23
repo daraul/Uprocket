@@ -42,3 +42,14 @@ console.log('Uprocket started');
 
 //document.getElementByClassName('arrow").style.overflow="visible";
 $("*.content .midcol,.content .commentarea .comment").css("overflow", "visible", "important");
+$.keyframe.define([{
+    name: 'upMoon',
+    0%: { 'transform': 'translate(0,0)', 'opacity': '1' }
+    10%: { 'transform': 'translate(4px,0)', 'transform': 'rotate(5deg)' }
+    15%: { 'transform': 'translate(-4px,0)', 'transform': 'rotate(-15deg)' }
+    20%: { 'transform': 'translate(0,0)' }
+    50%: { 'transform': 'translate(0,10px)', 'opacity': '1' }
+    88%: { 'transform': 'translate(0,-140px)', 'opacity': '0' }
+    94%: { 'transform': 'translate(0,14px)', 'opacity': '0' }
+    100%: { 'transform': 'translate(0,0)', 'opacity': '1' }
+  }])
