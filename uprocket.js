@@ -54,8 +54,12 @@ $.keyframe.define([{
   '94%': { 'transform': 'translate(0,14px)', 'opacity': '0' },
   '100%': { 'transform': 'translate(0,0)', 'opacity': '1' }
 }]);
+console.log('Animation defined');
 
-$(".arrow .upmod").playKeyFrame({
-  'upMoon 1500 1 ease',
-  complete
+$(".arrow.up").playKeyframe({
+	name: 'upMoon',
+	duration: 1500,
+	repeat: 1,
+	timingFunction: 'ease'
 });
+console.log('Finished applying animation');
