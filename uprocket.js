@@ -2,8 +2,9 @@
 // @name       Uprocket!
 // @namespace  http://use.i.E.your.homepage/
 // @version    0.1
-// @description  enter something useful
+// @description  Make the /r/dogecoin uprocket fly!
 // @match      http://www.reddit.com/r/dogecoin/
+// @require    http://thurstshouse.com/warehouse/Hosting/jquery.keyframes.min.js
 // @copyright  2012+, You
 // ==/UserScript==
 
