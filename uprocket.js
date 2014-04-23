@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name       Uprocket!
-// @namespace  http://use.i.E.your.homepage/
+// @namespace  https://github.com/thurst306/Uprocket
 // @version    1
 // @description  Make the /r/dogecoin uprocket fly!
-// @match      http://www.reddit.com/r/dogecoin/
+// @match      http://www.reddit.com/r/dogecoin/*
 // @require    http://thurstshouse.com/warehouse/Hosting/jquery.keyframes.min.js
-// @copyright  2012+, You
 // ==/UserScript==
 
 console.log('Uprocket started');
@@ -40,7 +39,6 @@ console.log('Uprocket started');
   100% { -webkit-transform:translate(0,0); opacity:1; }
 }*/
 
-//document.getElementByClassName('arrow").style.overflow="visible";
 $("*.content .midcol,.content .commentarea .comment").css("overflow", "visible", "important");
 
 $.keyframe.define([{
