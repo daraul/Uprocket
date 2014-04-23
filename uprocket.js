@@ -9,7 +9,7 @@
 
 console.log('Uprocket started');
 
-//CSS here:
+//CSS from /u/alystair here:
 /*.content .midcol,.content .commentarea .comment {overflow:visible !important;}
 .arrow.upmod{
   animation: upMoon ease 1.5s;
