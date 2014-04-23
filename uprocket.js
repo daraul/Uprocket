@@ -3,7 +3,7 @@
 // @namespace	https://github.com/thurst306/Uprocket
 // @version		1
 // @description	Make the /r/dogecoin uprocket fly!
-// @match		http://www.reddit.com/r/dogecoin/*
+// @match		http://www.reddit.com/r/dogecoin*
 // @require		http://thurstshouse.com/warehouse/Hosting/jquery.keyframes.min.js
 // ==/UserScript==
 
